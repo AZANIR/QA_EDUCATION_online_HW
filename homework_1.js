@@ -1,3 +1,5 @@
+//log terminal in coommit
+
 describe('should HW', () => {
   it('should have the right title', () => {
       //1 Зайти на сайт https://webdriver.io

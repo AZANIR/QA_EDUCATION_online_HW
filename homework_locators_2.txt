@@ -1,0 +1,15 @@
+//группа навигации футура
+//1й блок
+xpath
+//footer//div/h5[contains(text(),'Docs')]/..
+//div/a[@href='/help.html' and contains(text(), 'Help')]/..
+
+//2й блок
+xpath
+//footer//div/h5[contains(text(),'Community')]/..
+//div/a[contains(@href,'slack') or contains(text(), 'Slack')]/..
+
+//3й блок
+xpath
+//footer//div/h5[contains(text(),'More')]/..
+//div/a[contains(@href,'github') or contains(text(), 'GitHub')]/..

@@ -5,6 +5,28 @@ xpath
 
 css
 div.navGroup:nth-child(2)
+//подруппа навигации пункты навигации
+Introduction
+//div[@class="navGroups"]/div/h3[1] (Introduction)
+//h3[contains(text(),'Introduction')]
+API Docs
+//a[@*='navItem' and contains(text(),'API Docs')]
+Protocols
+//h3[contains(text(),'Protocols')]
+Webdriver Protocol
+//li/a[@href="/docs/api/webdriver.html"]
+Appium
+//li/a[@href="/docs/api/appium.html"]
+JSON Wire Protocol
+//li/a[@href="/docs/api/jsonwp.html"]
+Mobile JSON Wire Protocol
+//li/a[@href="/docs/api/mjsonwp.html"]
+Chromium
+//li/a[@href="/docs/api/chromium.html"]
+Sauce Labs
+//li/a[@href="/docs/api/saucelabs.html"]
+Selenium Standalone
+//li/a[@href="/docs/api/selenium.html"]
 ---------------------------------------------------------------
 
 //элемент меню "Contribute"

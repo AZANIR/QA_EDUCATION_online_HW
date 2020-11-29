@@ -1,0 +1,43 @@
+//группа навигации
+
+xpath
+//div[@class='navGroups']/div[2]
+
+css
+div.navGroup:nth-child(2)
+---------------------------------------------------------------
+
+//элемент меню "Contribute"
+
+xpath 
+//nav[@class='onPageNav']/ul/li[2]/a
+//a[@href='#contribute' and contains(text(), 'Contribute')]
+//a[contains(text(), 'Contribute')]
+css
+li a[href="#contribute"]
+---------------------------------------------------------------
+//кнопка edit
+
+xpath
+//a[@class="edit-page-link button"]
+//a[contains(@class,"edit-page-link")]
+css
+a[class*="edit-page-link"]
+[class*="edit-page-link"]
+---------------------------------------------------------------
+
+//ссылка на версию 
+
+xpath
+//a[@href="versions.html"]
+css
+[href="versions.html"]
+---------------------------------------------------------------
+
+//второй абзац 
+
+xpath
+//h2[contains(text(),'Examples')]/following-sibling::p[1]
+//article//h2/following-sibling::p[1]
+
+---------------------------------------------------------------

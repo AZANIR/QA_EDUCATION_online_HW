@@ -2,31 +2,71 @@
 
 xpath
 //div[@class='navGroups']/div[2]
-
 css
 div.navGroup:nth-child(2)
+
 //подруппа навигации пункты навигации
 Introduction
+xpath
 //div[@class="navGroups"]/div/h3[1] (Introduction)
 //h3[contains(text(),'Introduction')]
+css
+div.navGroups div:nth-child(1) h3
+
 API Docs
+xpath
 //a[@*='navItem' and contains(text(),'API Docs')]
+css
+div.navGroups div:nth-child(1) ul li a
+
 Protocols
+xpath
 //h3[contains(text(),'Protocols')]
+css
+div.navGroups div:nth-child(2) h3
+
 Webdriver Protocol
+xpath
 //li/a[@href="/docs/api/webdriver.html"]
+css
+div.navGroups div:nth-child(2) ul li:nth-child(1) a
+
 Appium
+xpath
 //li/a[@href="/docs/api/appium.html"]
+css
+div.navGroups div:nth-child(2) ul li:nth-child(2) a
+
 JSON Wire Protocol
+xpath
 //li/a[@href="/docs/api/jsonwp.html"]
+css
+div.navGroups div:nth-child(2) ul li:nth-child(3) a
+
 Mobile JSON Wire Protocol
+xpath
 //li/a[@href="/docs/api/mjsonwp.html"]
+css
+div.navGroups div:nth-child(2) ul li:nth-child(4) a
+
 Chromium
+xpath
 //li/a[@href="/docs/api/chromium.html"]
+css
+div.navGroups div:nth-child(2) ul li:nth-child(5) a
+
 Sauce Labs
+xpath
 //li/a[@href="/docs/api/saucelabs.html"]
+css
+div.navGroups div:nth-child(2) ul li:nth-child(6) a
+
 Selenium Standalone
+xpath
 //li/a[@href="/docs/api/selenium.html"]
+css
+div.navGroups div:nth-child(2) ul li:nth-child(7) a
+
 ---------------------------------------------------------------
 
 //элемент меню "Contribute"
@@ -61,5 +101,6 @@ css
 xpath
 //h2[contains(text(),'Examples')]/following-sibling::p[1]
 //article//h2/following-sibling::p[1]
-
+css
+article  div  span  p:nth-child(4)
 ---------------------------------------------------------------

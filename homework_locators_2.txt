@@ -1,15 +1,113 @@
 //группа навигации футура
+
 //1й блок
 xpath
 //footer//div/h5[contains(text(),'Docs')]/..
 //div/a[@href='/help.html' and contains(text(), 'Help')]/..
+css
+#footer  section  div:nth-child(2)
 
+//меню блока 
+Docs
+xpath
+//*[@id="footer"]/section[1]/div[1]/h5
+//footer//div/h5[contains(text(),'Docs')]
+css
+#footer section div:nth-child(2) h5
+
+Getting Started
+xpath
+//div/a[@href='/docs/gettingstarted.html' and contains(text(), 'Getting Started')]
+css
+#footer section div:nth-child(2) a:nth-child(2)
+
+API Reference
+xpath
+//div/a[@href='/docs/api.html' and contains(text(), 'API Reference')]
+css
+#footer section div:nth-child(2) a:nth-child(3)
+
+Contribute
+xpath
+//div/a[@href='/docs/contribute.html' and contains(text(), 'Contribute')]
+css
+#footer section div:nth-child(2) a:nth-child(4)
+
+Help
+xpath
+//div/a[@href='/help.html' and contains(text(), 'Help')]
+css
+#footer section div:nth-child(2) a:nth-child(5)
+------------------------------------------------------
 //2й блок
 xpath
 //footer//div/h5[contains(text(),'Community')]/..
 //div/a[contains(@href,'slack') or contains(text(), 'Slack')]/..
+css
+#footer  section  div:nth-child(3)
 
+//меню блока 
+Community
+xpath
+//*[@id="footer"]/section[1]/div[2]/h5
+//footer//div/h5[contains(text(),'Community')]
+css
+#footer section div:nth-child(3) h5
+
+Stack Overflow
+xpath
+//div/a[contains(@href,'stackoverflow') and contains(text(), 'Stack Overflow')]
+css
+#footer section div:nth-child(3) a:nth-child(2)
+
+Support Chat
+xpath
+//div/a[contains(@href,'gitter') and contains(text(), 'Support Chat')]
+css
+#footer section div:nth-child(3) a:nth-child(3)
+
+Slack
+xpath
+//div/a[contains(@href,'slack') or contains(text(), 'Slack')]
+css
+#footer section div:nth-child(3) a:nth-child(4)
+
+Twitter
+xpath
+//div/a[contains(@href,'twitter') and contains(text(), 'Twitter')]
+css
+#footer section div:nth-child(3) a:nth-child(5)
+------------------------------------------------------
 //3й блок
 xpath
 //footer//div/h5[contains(text(),'More')]/..
 //div/a[contains(@href,'github') or contains(text(), 'GitHub')]/..
+css
+#footer  section  div:nth-child(4)
+
+//меню блока 
+More
+xpath
+//*[@id="footer"]/section[1]/div[3]/h5
+//footer//div/h5[contains(text(),'More')]
+css
+#footer section div:nth-child(4) h5
+
+Tidelift Subscription
+xpath
+//div/a[contains(@href,'enterprise') and contains(text(), 'Tidelift')]
+css
+#footer section div:nth-child(4) a:nth-child(2)
+
+Blog
+xpath
+//div/a[contains(@href,'blog') and contains(text(), 'Blog')]
+css
+#footer section div:nth-child(4) a:nth-child(3)
+
+GitHub
+xpath
+//div/a[contains(@href,'github') and contains(text(), 'GitHub')]
+css
+#footer section div:nth-child(4) a:nth-child(4)
+------------------------------------------------------

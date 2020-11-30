@@ -1,62 +1,61 @@
 test cases github.com
-	
+
 1.Test suit (get title text github.com)
 
-	Title: go to GitHab get title text and output in console.
+Title: go to GitHub get title text and output in the console.
 
-	1.Go to https://github.com
-	2.Get title text from page with selector "//h1[contains(text(),'developers')]"
-	3.Output the result to the console
+1.Go to https://github.com
+2.Get title text from page with selector "//h1[contains(text(),'developers')]"
+3.Output the result to the console
 
-	Result: Text in console "Title text is: Built for developers".
-	
-2.Test suit (check is visible twitter link "https://twitter.com/github")
+Result: Text in console "Title text is: Built for developers".
 
-	Title: go to GitHab check visible status link "https://twitter.com/github" and output result in console.
+2.Test suit (check is visible Twitter link "https://twitter.com/github")
 
-	1.Go to https://github.com
-	2.Check is visible link "href="https://twitter.com/github" with metod isDisplayedInViewport
-	3.Output the result to the console
-	4.Scroll in to viev.
-	5.Check is visible link "href="https://twitter.com/github" with metod isDisplayedInViewport
-	6.Output the result to the console
+Title: go to GitHub check the visible status link "https://twitter.com/github" and output result in the console.
 
-	Result: first check output "IS  isDisplayedInViewor ?: False"
-			second check output "IS  isGitHubDisplayedInViewPor ?: True"
-			
+1.Go to https://github.com
+2.Check is visible link "href="https://twitter.com/github" with method isDisplayedInViewport
+3.Output the result to the console
+4.Scroll into view.
+5.Check is visible link "href="https://twitter.com/github" with method isDisplayedInViewport
+6.Output the result to the console
+
+Result: first check output "IS isDisplayedInViewor ?: False"
+second check output "IS isGitHubDisplayedInViewPor ?: True"
+
 3.Test suit (go to https://github.com and return with button)
 
-	Title: go to GitHab find the button home in the footer and click.
+Title: go to GitHub find the button home in the footer and click.
 
-	1.Go to https://github.com
-	2.Move to viev element with selector "#footer [aria-label*=homepage]"
-	3.Wait 3 seconds
-	4.Click for element
-	5.Wait 3 seconds
-	
-	Result: by the end of the test should be on the main page.
-	
-4.Test suit (go to https://github.blog find the category block and get screenshot)
+1.Go to https://github.com
+2.Move to viev element with selector "#footer [aria-label*=homepage]"
+3.Wait 3 seconds
+4.Click for element
+5.Wait 3 seconds
 
-	Title: go to GitHab Blog find the category block and get screenshot.
+Result: by the end of the test should be on the main page.
 
-	1.Go to https://github.blog
-	2.Find the category block with selector "#tns1-item0 div"
-	3.Get screenshot from this element
-	
-	Result: Screenshot first element jf category block 
-	
-	
+4.Test suit (go to https://github.blog find the category block and get a screenshot)
+
+Title: go to GitHub Blog find the category block and get a screenshot.
+
+1.Go to https://github.blog
+2.Find the category block with selector "#tns1-item0 div"
+3.Get screenshot from this element
+
+Result: Screenshot first element in category block
+
+
 5.Test suit (login github.com)
 
-	Title: signIn to GitHab with valid credentials.
+Title: signIn to GitHub with valid credentials.
 
-	1.Go to https://github.com/login
-	2.Fill in the fields with login: "testuserwb" and password "xWMnaha7e6MQXge"
-	3.Use login field selector "#login_field" for setValue;
-	4.Use password field selector "#password" for setValue;
-	5.Click "Sign In" button.
-	6.Wait 3 seconds.
+1.Go to https://github.com/login
+2.Fill in the fields with login: "testuserwb" and password "xWMnaha7e6MQXge"
+3.Use login field selector "#login_field" for setValue;
+4.Use password field selector "#password" for setValue;
+5.Click "Sign In" button.
+6.Wait 3 seconds.
 
-	Result: Status login in account.
-	
+Result: Status login in the account.

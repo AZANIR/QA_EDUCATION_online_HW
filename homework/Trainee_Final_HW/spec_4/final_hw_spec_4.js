@@ -22,7 +22,7 @@ describe.only('restore password https://github.com page with not credentials and
     browser.pause(2000);
   });
 
-  it.only('generate email and feel the field', () => {
+  it.only('generate email and fill the field', () => {
     var emailName = mailPassGen.getEmail();
     console.log("Generate email :" + emailName);
     emailField4.setEmail(emailName);
@@ -40,7 +40,7 @@ describe.only('restore password https://github.com page with not credentials and
     console.log("Go to real email and chek");
   });
   //Part 2 chek with real email.
-  it.only('set real email and feel the field', () => {
+  it.only('set real email and fill the field', () => {
     var emailName = mailPassGen.getEmail();
     emailField4.setEmail('testuserwb@protonmail.com');
     browser.pause(1000);
@@ -63,12 +63,12 @@ describe.only('restore password https://github.com page with not credentials and
     browser.pause(6000);
   });
 
-  it.only('Feel the login field', () => {
+  it.only('fill the login field', () => {
     usernameField.setUsername('testuserwb');
     browser.pause(1000);
   });
 
-  it.only('Feel the password field', () => {
+  it.only('fill the password field', () => {
     passwordField.setPassword('xWMnaha7e6MQXge');
     browser.pause(1000);
   });

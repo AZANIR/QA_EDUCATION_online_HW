@@ -12,12 +12,12 @@ describe.only('https://github.com/login page login vith real data', () => {
     browser.url('https://github.com/login');
   });
 
-  it.only('feel the field login', () => {
+  it.only('fill the field login', () => {
     userNameField3.setUserName('testuserwb');
     browser.pause(1000);
   });
 
-  it.only('feel the field password', () => {
+  it.only('fill the field password', () => {
     passwordlField3.setPass('xWMnaha7e6MQXge');
     browser.pause(2000);
   });

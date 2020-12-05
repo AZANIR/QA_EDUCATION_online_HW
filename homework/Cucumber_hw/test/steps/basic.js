@@ -3,7 +3,6 @@ const {Given, Then, When} = require('cucumber')
 Given(/^I go to "([^"]*)"$/,(url)=>{
       browser.url(url)
   });
-
 When(/I click on button/, () => {
   $('header a[href="/"]').click();
 });

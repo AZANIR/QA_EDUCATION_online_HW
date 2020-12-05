@@ -1,0 +1,26 @@
+{
+  "name": "webdriverio-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js",
+    "p": "prettier --write 'test/**/*.js'",
+    "p:w": "onchange 'test/**/*.js' -- prettier --write {{changed}}"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-runtime": "^6.26.0",
+    "chai": "^4.2.0",
+    "wdio-cucumber-framework": "^2.2.7",
+    "wdio-mocha-framework": "^0.6.3",
+    "wdio-selenium-standalone-service": "0.0.10",
+    "webdriverio": "^4.14.0"
+  },
+  "dependencies": {
+    "prettier": "^1.14.3",
+    "save-dev": "^2.0.0"
+  }
+}
